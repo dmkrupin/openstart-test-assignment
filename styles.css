@@ -2,15 +2,18 @@
   width: 700px;
   height: 200px;
   margin: auto;
+  background-color: #000000;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+  padding: 1px;
 
   font-family: 'Courier New', Courier, monospace;
 }
 .container__item {
-  border: 1px solid #000;
   display: flex;
+  background-color: #fff;
 }
 .container__text {
   margin: auto;
