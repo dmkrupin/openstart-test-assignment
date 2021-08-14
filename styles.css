@@ -1,0 +1,27 @@
+.container {
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+.container__item {
+  border: 1px solid #000;
+  display: flex;
+}
+.container__text {
+  margin: auto;
+}
+.item-4 {
+  grid-row: 2 / -1;
+}
+.item-5 {
+  grid-column: 2 / -1;
+}
+.container__text--clickable {
+  font-weight: 700;
+  cursor: pointer;
+}
