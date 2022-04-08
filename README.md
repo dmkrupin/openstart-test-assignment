@@ -1,4 +1,6 @@
 # openstart-test-assignment
+
+[смотреть страницу](https://dmkrupin.github.io/openstart-test-assignment/)
 ## Тестовое задание для компании OpenStart
 
 _Напишите верстку таблицы. Все бордюры визуально должны быть толщиной 1px. Цифра 5 должна быть жирной и при клике на нее должны выскакивать сообщение “Hello, world!”_
